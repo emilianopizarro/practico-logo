@@ -1,0 +1,93 @@
+.cajasuperior{
+    width: 100%;
+    height: 140px;
+    background-color: rgb(119, 183, 255);
+    border: 1px solid #3a3b74;
+}
+
+a{
+    font-size: 20px;
+ text-decoration: none;
+ color:rgb(0, 0, 0);
+ text-align: right;
+}
+h5{
+    font-size: 29px;
+    color:  rgb(255, 230, 7);
+    padding-left: 30px;
+  
+}
+
+
+.arribad{
+    width: 90%;
+margin-top: -15px;
+    text-align: right;
+    list-style-type: none;
+   
+}
+
+.todositems{
+    width: 100%;
+    padding: 100px;
+    background-color: #a8a7ff83;
+    float: left;
+}
+
+.cajaoscuras{
+ 
+    height: 400px;
+    text-align: center;
+    width: 20%;
+    background-color: rgb(88, 88, 88);
+    float: left;
+    margin: 0.3%;
+}
+
+.cajaoscuras:hover{
+    transition: 0.2s;
+    transform: scale(115%);
+    background-color: rgb(197, 212, 255);
+    border: 2px solid #353535;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 00.2%);
+}
+
+
+.item{
+padding: 10px;
+    text-align: center;
+}
+img{
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+button{
+    color: rgb(255, 213, 213);
+    background-color: rgb(0, 134, 11);
+    height: 40px;
+    width: 60%;
+}
+
+
+.signo{
+    vertical-align: super;
+    color: #007e11;
+}
+
+.numero{
+    color: #007e11;
+    font-size: 40px;
+}
+
+.mensual{
+    vertical-align: sub;
+}
+
+.cajaizquierda{
+    position: fixed;
+    top: 100px;
+    width: 25px;
+    display: grid;
+}
